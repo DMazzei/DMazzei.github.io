@@ -1,0 +1,77 @@
+[
+  {
+    "command": "help",
+    "responseType": "list",
+    "value": [
+      "<code>about</code> : Displays information about me",
+      "<code>clear</code> : Clear terminal",
+      "<code>experiences</code> : Display the list of my professional experiences",
+      "<code>get-cv</code> : Download CV in pdf format",
+      "<code>help</code> : Display help",
+      "<code>hobbies</code> : Display the list of my interests and hobbies",
+      "<code>skills</code> : Display the list of my skills and technologies I have experience with",
+      "<code>dark/light</code> : Change theme",
+      "<em>You can use the TAB key to complete a command</em>",
+      "<em>You can find old commands with the up and down arrows.</em>"
+    ]
+  },
+  {
+    "command": "about",
+    "responseType": "code",
+    "value": [
+      "{",
+      "   \"name\" : \"Dan Mazzei\",",
+      "   \"role\" : \"Lead / Senior Software Engineer\",",
+      "   \"position\" : \"Cross-stack / Full-stack Developer\",",
+      "   \"experience\" : \"20+ years\",",
+      "   \"city\" : \"Edinburgh, Scotland / UK\",",
+      "   \"summary\" : \"Having honed my skills for almost a quarter of a century (as I started my career fixing",
+      "       vb6 Y2K date bugs), I’ve cultivated a deep-seated knowledge of cross- and full-stack development.",
+      "       This expertise is not just a testament to my technical abilities but also to my commitment to driving",
+      "       impactful and user-centric innovations in the fintech space.\"",
+      "}"
+    ]
+  },
+  {
+    "command": "experiences",
+    "responseType": "table",
+    "headers": ["Date", "Company", "Role", "Tech"],
+    "rows": [
+      [
+        "02/2022<br/>10/2024",
+        "Funding Circle",
+        "Lead Engineer",
+        "Python<br/>Ruby<br/>AWS"
+      ],
+      [
+        "09/2017<br/>02/2022",
+        "Funding Circle",
+        "Senior Software Engineer",
+        "Python<br/>Ruby<br/>AWS"
+      ]
+    ]
+  },
+  {
+    "command": "hobbies",
+    "responseType": "list",
+    "value": [
+      "Tech: Electronics and breadboard computers (6502 microprocessor), Assembly and 8-bit game programming",
+      "Geek: Video Game Console Modding (mostly GameBoys), Home Automation, 3D Printing",
+      "Music: Guitar, Ukulele, Wooden Spoons",
+      "Outdoors: Sailing, Drone Flying",
+      "Other: Linguistics, Philosophy"
+    ]
+  },
+  {
+    "command": "skills",
+    "responseType": "list",
+    "value": [
+      "Python, Ruby/Rails, Clojure, Java, C#.NET, TypeScript/JavaScript/REACT, Shell Script, PL/SQL",
+      "Kafka/Streams/KsqlDB, Kubernetes, Docker, REST, RabbitMQ, Redis, Terraform, Artifactory, ArgoCD",
+      "Drone, Jenkins, CircleCI, Maven, Django, Flask, Nginx, FastAPI",
+      "MS SQL, Oracle, Postgres, MongoDB, DynamoDB, DB2, MySQL",
+      "AWS - Athena, S3, DynamoDB, Secrets Manager, Lambdas",
+      "System Design, TDD, CI/CD, Cloud Solutions, SaaS, Project Management, UML, OOP"
+    ]
+  }
+]
